@@ -9,7 +9,7 @@ TEST(TestSuite, test1)
 int main(int argc,char **argv)
 {
 	testing::InitGoogleTest(&argc,argv);
-	ros::init(argc,argv,"tester");
+	ros::init(argc,argv,"lib_test");
 	ros::NodeHandle nh;
 	return RUN_ALL_TESTS();
 }
