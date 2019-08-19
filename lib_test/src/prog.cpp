@@ -2,5 +2,5 @@
 
 double sqrt(double a)
 {
-	return sqrt(a);
+	return sqrt(a)
 }
